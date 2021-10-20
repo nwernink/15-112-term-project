@@ -1,0 +1,5 @@
+TP 2 Update:
+
+1) Change from casino with poker, blackjack, and roulette to only poker; however, the preliminary code for the other functions still exists but is commented out.
+
+2) Fully implemented modal structure with separate files for poker class, images, AIs, and poker functions.

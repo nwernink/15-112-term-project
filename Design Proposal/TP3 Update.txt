@@ -1,0 +1,11 @@
+TP3 Update
+
+1) Added sql database to track users globally with username, password, account balance, and the machine learning component to see how aggressive or conservative a player is.
+
+2) Machine learning component improves the AIs the more the user plays and adjusts how the AI reacts to your moves by adjusting the hand odds based on whether or not you are still in the hand and how aggressive/conservative you are as a player.
+
+3) Added the options page for the user to decide how many players they would like to play against (1 to 7), the difficulty of the AIs (easy, medium, and hard), as well as how much they want the buy in to be.
+
+4) There are now 5 AIs (super conservative, conservative, balanced, aggressive, and super aggressive).
+
+5) Added real-time player hand odds in the cheat section where you see all the other players hands as well as the odds of each hand knowing all the information including other players hands and the board.

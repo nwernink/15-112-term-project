@@ -1,0 +1,22 @@
+Project Description:
+bet112 will be a casino where you can play pokez, blackjack, or roulette with the main emphasis on poker where you can plan against AIs. You will login and your account balance will be saved for you as you can play whatever game you would like trying to earn the most amount of money! Additionally, your playing tendencies will be kept track of so even if you exit the app, the AIs will know how you play!
+
+
+Competitive Analysis:
+My project is very similar to Poker Face by Kathryn Wang (112 TP - https://www.youtube.com/watch?v=5ubwPDevQPY) in the sense that the user will be able to play against AIs and see a live view of what each player's action with a description. However, instead of using openCV to help inform the AI, I will use Monte-Carlo simulations to inform the AI how to bet (similar to Jake Rothschild's 112 TP - https://www.youtube.com/watch?v=-ZO4DunEplYhttps://www.youtube.com/watch?v=-ZO4DunEplY). That being said, my project differs from the others in that my program will eventually use machine learning to understand your poker betting tendencies to make the optimal move whether to call, fold, or raise. Furthermore, my program is also a casino where you can play blackjack and roulette. Finally, similar to FriendsPoker by Max Chen (112 TP - https://www.youtube.com/watch?v=LHUxPr-ngU8), my program will allow the user to create an account to save their progress.
+
+Structural Plan:
+My project will compromise of five main components: the login page, main casino page, poker page, blackjack page, and the roulette page. There will be two different player classes, one for poker and one for blackjack. All images and classes will loaded from separate files. Functions as of now are separated and organized by which app state it is meant for, and this will be further complemented by a modal app structure.
+
+Algorithmic Plan:
+The most complex part of my project is creating the poker AIs. The AIs will use Monte-Carlo simulations, betting information, and weighted probabilities to determine whether or not to call, fold, or raise. I have already created the Monte-Carlo simulation algorithm, and the next step to implement these simulations to the AIs. In doing so, I will need figure out how to quantify the probability of a player winning the hand based on how they bet and then connect each individual AI with a separate Monte-Carlo simulation and determine how each AI will react to different probabilities of winning the hand. Another problem I have to solve is determining what is right for the trade-off between time and accuracy for the simulations.
+
+Timeline Plan:
+I plan to finish my AI algorithm and have a fully implemented poker game by the TP2 deadline. Once I reach MVP, I will begin working on using sqlite3 to save user data. After that is completed, I will begin using machine learning to further aide the AIs. Finally, I will complete the casino part of the project by adding blackjack and roulette features.
+
+Version Control Plan:
+You can see my version control in Google Drive in the image Version Control Plan.png. Every time I update my code, I back it up in the cloud in a shared folder with both my CMU and personal emails. 
+
+Module List:
+cmu_112_graphics
+(sqlite3 post-MVP)
